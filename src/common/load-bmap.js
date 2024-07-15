@@ -6,7 +6,8 @@ export function Bmap() {
     }
     let script = document.createElement('script')
     script.type = 'text/javascript'
-    script.src = `//api.map.baidu.com/api?v=3.0&ak=jcI3Q88g6V99OPBjLryoOqPTtsRdedHA&callback=initBMapGL`
+    // script.src = `//api.map.baidu.com/api?v=3.0&ak=jcI3Q88g6V99OPBjLryoOqPTtsRdedHA&callback=initBMapGL`
+    script.src = ``
 
     script.onerror = reject
 
